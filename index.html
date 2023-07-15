@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Boku no Hero Academia - Semana do Zero Ao Programador Contratado</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/img/logo.png" alt="Logo boku no hero academia">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="Midoriya" data-name="Midoriya"
+          data-description="Midoriya Izuku, também conhecido como Deku, é o protagonista de My Hero Academia, um estudante determinado a se tornar um herói mesmo sem ter poderes no início da história.">
+          <img src="./src/img/card-midoriya.jpg" alt="Personagem Midoriya" />
+        </li>
+        <li class="personagem" id="Bakugou" data-name="Bakugou"
+          data-description="
+          Bakugou Katsuki é um estudante talentoso. Bakugou possui uma personalidade explosiva e determinada, e sua individualidade é chamada Explosão, permitindo que ele crie e manipule explosões com suas mãos. ">
+          <img src="./src/img/card-bakugou.jpg" alt="Personagem Bakugou" />
+        </li>
+
+        <li class="personagem" id="todoroki" data-name="todoroki"
+          data-description="Todoroki Shouto é um estudante habilidoso e poderoso. Todoroki é filho do herói Endeavor e possui uma individualidade dupla: ele pode manipular o fogo com sua metade direita e o gelo com sua metade esquerda.">
+          <img src="./src/img/card-todoroki.jpg" alt="Personagem todoroki" />
+        </li>
+
+        <li class="personagem" id="allmight" data-name="allmight"
+          data-description="All Might é considerado o maior herói do mundo e é admirado por muitos. All Might possui uma individualidade chamada One For All, que lhe concede imensa força e velocidade sobre-humanas.">
+          <img src="./src/img/card-allmight.jpg" alt="Personagem allmight" />
+        </li>
+
+        <li class="personagem" id="uraraka" data-name="uraraka"
+          data-description="Uraraka Ochaco é uma estudante amigável e determinada do curso de heróis. Uraraka possui a individualidade chamada Zero Gravity, permitindo que ela controle a gravidade ao tocar em objetos.">
+          <img src="./src/img/card-uraraka.jpg" alt="Personagem uraraka" />
+        </li>
+
+        <li class="personagem" id="kirishima" data-name="kirishima"
+          data-description="Kirishima Eijiro é um estudante do curso de heróis com uma personalidade determinada e corajosa. Kirishima possui a individualidade chamada Red Riot, que lhe permite endurecer sua pele como aço.">
+          <img src="./src/img/card-kirishima.jpg" alt="Personagem kirishima" />
+        </li>
+
+        <li class="personagem" id="iida" data-name="iida"
+          data-description="Iida Tenya é um estudante dedicado e responsável do curso de heróis. Iida possui a individualidade chamada Engine, que lhe permite correr em alta velocidade com motores nas pernas.">
+          <img src="./src/img/card-iida.jpg" alt="Personagem iida" />
+        </li>
+
+        <li class="personagem" id="aizawa" data-name="aizawa"
+          data-description="Aizawa Shota, é um professor da U.A. High School. Aizawa possui a individualidade chamada Erasure, que lhe permite cancelar temporariamente as individualidades dos outros, desde que ele mantenha o contato visual.">
+          <img src="./src/img/card-aizawa.jpg" alt="Personagem aizawa" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/img/card-midoriya.png" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Midoriya</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Midoriya Izuku, também conhecido como Deku, é o protagonista de My Hero Academia, um estudante determinado a
+          se tornar um herói mesmo sem ter poderes no início da história.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
